@@ -8,7 +8,7 @@ async function getProducts() {
   const response = await fetch("https://api.advanziaeducation.com/api/products", {
     method: "GET", // GET zahtev
     headers: {
-      "X-API-Key": "1fbf462b74f4f83721197bf6ee44b62f4720747fae9a795144883c8ca43ffc98" // API ključ u headeru
+      "X-API-Key": "Your_API_Key" // API ključ u headeru
     }
   });
 
